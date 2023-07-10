@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="studi.css" />
+  </head>
+  <body>
+    <section id="intro">
+      <img src="IMG_0257-min.JPG" alt="Your Photo" class="profile-photo" />
+      <h1>Welcome to My Landing Page!</h1>
+      <h3 style="text-align: center">Riski Hidayat</h3>
+    </section>
+
+    <h2 style="text-align: center">Pilih Salah Satu</h2>
+    <section id="skills">
+      <div class="skill-card">
+        <a href="#html-topic" onclick="showConfirmation('HTML')">
+          <img src="html.png" alt="HTML" class="skill-logo" />
+          <div class="skill-overlay">
+            <h3>HTML</h3>
+            <p>Click to learn more</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="skill-card">
+        <a href="#css-topic" onclick="showConfirmation('CSS')">
+          <img src="CSS-Logo.png" alt="CSS" class="skill-logo" />
+          <div class="skill-overlay">
+            <h3>CSS</h3>
+            <p>Click to learn more</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="skill-card">
+        <a href="#js-topic" onclick="showConfirmation('JavaScript')">
+          <img src="JavaScript-logo.png" alt="JavaScript" class="skill-logo" />
+          <div class="skill-overlay">
+            <h3>JavaScript</h3>
+            <p>Click to learn more</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="html-topic">
+      <h2 color="red">HTML</h2>
+      <!-- Isi materi HTML -->
+      <h4>Pengertian HTML</h4>
+      <p>
+        HTML (HyperText Markup Language) adalah bahasa markup standar yang
+        digunakan untuk membuat struktur dan mengatur tampilan konten pada
+        halaman web. HTML menggunakan elemen-elemen (tag) untuk mempresentasikan
+        informasi, dan browser web akan menginterpretasikan tag-tag tersebut
+        untuk menampilkan halaman web secara sesuai.
+      </p>
+
+      <h4>Contoh Kode HTML</h4>
+      <p>Berikut adalah contoh kode HTML yang sederhana:</p>
+      <pre>
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+        &lt;title&gt;Judul Halaman&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;Judul Utama&lt;/h1&gt;
+        &lt;p&gt;Ini adalah contoh paragraf.&lt;/p&gt;
+        &lt;p&gt;Ini adalah contoh paragraf lainnya.&lt;/p&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+      </pre>
+
+      <h4>Tag Dasar HTML</h4>
+      <p>Berikut adalah beberapa tag dasar yang umum digunakan dalam HTML:</p>
+      <ul>
+        <li>
+          &lt;h1&gt; - &lt;h6&gt;: Menandai judul atau heading pada halaman.
+        </li>
+        <li>&lt;p&gt;: Menandai paragraf teks.</li>
+        <li>
+          &lt;a&gt;: Membuat tautan (link) ke halaman atau sumber lainnya.
+        </li>
+        <li>&lt;img&gt;: Menampilkan gambar di halaman.</li>
+        <li>&lt;ul&gt; dan &lt;li&gt;: Membuat daftar dengan tanda bullet.</li>
+        <li>&lt;ol&gt; dan &lt;li&gt;: Membuat daftar dengan angka.</li>
+        <li>
+          &lt;div&gt;: Menandai suatu bagian atau kontainer di dalam halaman.
+        </li>
+        <li>
+          &lt;span&gt;: Menandai bagian teks yang ingin diberi gaya atau
+          manipulasi tertentu.
+        </li>
+      </ul>
+    </section>
+
+    <section id="css-topic">
+      <h2>CSS</h2>
+      <!-- Isi materi CSS -->
+      <h4>Pengertian CSS</h4>
+      <p>
+        CSS (Cascading Style Sheets) adalah bahasa stylesheet yang digunakan
+        untuk mengatur tampilan dan gaya elemen-elemen HTML pada halaman web.
+        Dengan CSS, Anda dapat mengubah warna, ukuran, jenis font, tata letak,
+        dan berbagai aspek visual lainnya dari elemen-elemen pada halaman web.
+      </p>
+
+      <h4>Contoh Kode CSS</h4>
+      <p>Berikut adalah contoh kode CSS yang menerapkan beberapa properti:</p>
+      <pre>
+      /* CSS Styles */
+      body {
+        font-family: Arial, sans-serif;
+      }
+    
+      h1 {
+        color: blue;
+      }
+    
+      p {
+        font-size: 18px;
+      }
+    
+      .container {
+        background-color: lightgray;
+        padding: 20px;
+      }
+    
+      .highlight {
+        background-color: yellow;
+        font-weight: bold;
+      }
+      </pre>
+
+      <h4>Properti Dasar CSS</h4>
+      <p>
+        Berikut adalah beberapa properti dasar yang umum digunakan dalam CSS:
+      </p>
+      <ul>
+        <li><strong>color</strong>: Mengubah warna teks.</li>
+        <li><strong>font-size</strong>: Mengubah ukuran teks.</li>
+        <li><strong>font-family</strong>: Mengubah jenis font teks.</li>
+        <li>
+          <strong>background-color</strong>: Mengubah warna latar belakang
+          elemen.
+        </li>
+        <li>
+          <strong>padding</strong>: Menambahkan ruang padding di sekitar konten
+          elemen.
+        </li>
+        <li>
+          <strong>margin</strong>: Menambahkan ruang margin di sekitar elemen.
+        </li>
+        <li>
+          <strong>border</strong>: Menambahkan garis batas di sekitar elemen.
+        </li>
+        <li>
+          <strong>text-align</strong>: Mengatur tata letak teks (misalnya,
+          "center" untuk tengah, "left" untuk kiri, "right" untuk kanan).
+        </li>
+        <li>
+          <strong>font-weight</strong>: Mengubah ketebalan (boldness) teks.
+        </li>
+      </ul>
+    </section>
+
+    <section id="js-topic">
+      <h2>JavaScript</h2>
+      <!-- Isi materi JavaScript -->
+      COMING SOON....
+    </section>
+    <section id="social-media">
+      <h2>Follow Me</h2>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/riski_hidayat19" target="_blank">
+          <img src="ig.jpeg" alt="Instagram" class="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/riski-hidayat" target="_blank">
+          <img src="lin.png" alt="LinkedIn" class="social-icon" />
+        </a>
+        <a href="https://twitter.com/Riskihidayattt_" target="_blank">
+          <img src="tw.png" alt="Twitter" class="social-icon" />
+        </a>
+      </div>
+    </section>
+    <section>
+      <title>Copyright</title>
+      <style>
+        .copyright {
+          background-color: #d65858;
+          padding: 20px;
+          text-align: center;
+        }
+      </style>
+      <div class="copyright">
+        <p>
+          <b>Copyright&copy;Riski Hidayat 2023.Politeknik Negeri Lampung</b>
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+      function showConfirmation(topic) {
+        var confirmation = confirm(
+          "Apakah Anda ingin membaca materi " + topic + "?"
+        );
+        if (confirmation) {
+          // Mengarahkan pengguna ke bagian materi yang sesuai
+          window.location.href = "#" + topic.toLowerCase() + "-topic";
+        }
+      }
+    </script>
+  </body>
+</html>
